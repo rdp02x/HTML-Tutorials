@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> HTML Forms </title>
+    <style>
+        body {
+            font-family: georgia;
+            background-image: url(Death\ Note.jpg);
+            background-attachment: fixed;
+            background-size: cover;
+        }
+    </style>
+</head>
+
+<body>
+    <h1 style="text-align: center;">SAMPLE FORM</h1>
+    <form>
+        <fieldset>
+ 
+                <!---PERSONAL INFORMATION-->
+ 
+            <legend><b>Personal Information</b></legend>
+            <br />
+            <label>Candidate's Name</label><br /><br />                         <!---NAME--->
+            <input type="text" id="fname" style="width: 200px;">
+            <input type="text" id="mname" style="width: 200px;">
+            <input type="text" id="lname" style="width: 200px;">
+            <br /><br /><br />
+            <label> Father's Name </label><br /><br />                          <!---FATHER'S NAME--->
+            <input type="text" style="width: 300px;">
+            <br /><br /><br />
+            <label> Mother's Name </label><br /><br />                          <!---MOTHER'S NAME--->
+            <input type="text" style="width: 300px;">
+            <br /><br /><br />
+            <label> Date of Birth </label><br /><br />                          <!---BIRTHDAY--->
+            <input type="date" id="bday">
+            <br /><br /><br />
+            <label> Gender </label> <br /><br />                                <!---GENDER--->
+            <input type="radio" id="M" name="gender"> Male
+            <input type="radio" id="F" name="gender"> female
+            <input type="radio" id="O" name="gender"> Others
+        </fieldset>
+        <br />
+        <fieldset>
+            
+                <!---ADDRESS-->
+            
+            <legend><b>Address</b></legend>
+            <br />
+            <label> Permanent Address </label> <br /><br />                     <!---ADDRESS-->
+            <textarea style="height: 90px; width: 400px;"></textarea>
+            <br /><br /><br />
+            <label>Area/Street</label><br /><br />                              <!---AREA-->
+            <input type="text" id="area">
+            <br /><br /><br />
+            <label>City</label><br /><br />                                     <!---CITY-->
+            <input type="text" id="area">
+            <br /><br /><br />
+            <label>State</label><br /><br />                                    <!---STATE-->
+            <input type="text" id="area">
+            <br /><br /><br />
+            <label>Country</label><br /><br />                                  <!---COUNTRY-->
+            <input type="text" id="area">
+            <br /><br /><br />
+            <label>ZIP code</label><br /><br />                                 <!---POSTAL CODE-->
+            <input type="number" id="area">
+        </fieldset>
+        <br />
+        <fieldset>
+            <legend><b>Contact Information</b></legend><br />
+            <label>Phone Number</label><br /><br />
+            <input type="number" id="phno">
+            <input type="number" id="phno">
+            <br /><br /><br />
+            <label;">E-Mail</label><br /><br /> 
+            <input type="email" id="mail" style="width: 300px;">
+            <br /><br /><br />
+            <label> Parent's/Guradian's Contact<label><br /><br />
+            <input type="number" id="phno">
+        </fieldset>
+    </form>
+</body>
+
+</html>
